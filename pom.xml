@@ -4,10 +4,11 @@
 				http://maven.apache.org/maven-v4_0_0.xsd">
 
 	
-	<groupId>com.samsung</groupId>
-	<artifactId>asr-dash-da-en-US</artifactId>
-															                               <version>1.0-SNAPSHOT</version>																		       <build>
-																			       <finalName>docker-jenkins</finalName>
-																		       </build>
-																	       </project>
-
+	<modelVersion>4.0.0</modelVersion>
+	 
+	  <groupId>org.codehaus.mojo</groupId>
+	    <artifactId>my-parent</artifactId>
+	      <version>2.0</version>
+	        <packaging>pom</packaging>
+	</project>
+															                               
